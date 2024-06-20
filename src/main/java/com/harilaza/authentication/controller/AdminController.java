@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AdminController {
 
     @GetMapping
-    public ResponseEntity<String> cheminadministrateur() {
+    public ResponseEntity<String> admin_route() {
         return ResponseEntity.ok("this is protected route for all admin");
     }
 }

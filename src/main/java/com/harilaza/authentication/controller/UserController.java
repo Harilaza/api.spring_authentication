@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     @GetMapping
-    public ResponseEntity<String> cheminUtilisateur() {
+    public ResponseEntity<String> user_route() {
         return ResponseEntity.ok("this is an user protected route");
     }
 }
